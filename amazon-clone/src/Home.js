@@ -10,6 +10,7 @@ function Home() {
         
 
         {/* Product id, title, price, rating, image*/}
+        <div className="home__row">
         <Product 
         id="12321" 
         title="The Lean Startup: How Constant Innovation Creates companys!"
@@ -17,7 +18,47 @@ function Home() {
         rating= {5}
         image="https://images-na.ssl-images-amazon.com/images/I/51T-sMqSMiL._SX329_BO1,204,203,200_.jpg" 
         />
+
+
+    <Product 
+        id="123212" 
+        title="New Apple iPad (10.2-inch, Wi-Fi, 32GB) - Space Gray (Latest Model, 8th Generation)"
+        price= {299}
+        rating= {4}
+        image="https://m.media-amazon.com/images/I/71UNqxJlGxL._AC_UL320_.jpg" 
+        />
         {/* Product */}
+        </div>
+
+        <div className="home__row">
+
+        <Product 
+        id="123213" 
+        title="Apple MacBook Air (13-inch, 8GB RAM, 256GB SSD Storage) - Space Gray (Latest Model)"
+        price= {899.99}
+        rating= {5}
+        image="https://m.media-amazon.com/images/I/71k3fJh5EwL._AC_UL320_.jpg" 
+        />
+
+        
+    <Product 
+        id="12321" 
+        title="Apple iPad Mini (Wi-Fi, 64GB) - Space Gray (Latest Model)"
+        price= {379}
+        rating= {5}
+        image="https://m.media-amazon.com/images/I/71Ha06XS-VL._AC_UL320_.jpg" 
+        />
+
+        
+    <Product 
+        id="12321" 
+        title="HP Chromebook X360 14-Inch HD Touchscreen Laptop, Intel Celeron N4000, 4 GB RAM, 32 GB eMMC"
+        price= {445}
+        rating= {5}
+        image="https://m.media-amazon.com/images/I/8173Or14LpL._AC_UL320_.jpg" 
+        />
+
+        </div>
         </div>
     );
 }
