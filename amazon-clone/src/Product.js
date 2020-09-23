@@ -18,6 +18,8 @@ function Product({id, title, image, price, rating}) {
                         <p>★</p>
                     ))}
             </div>
+            <img src={image} alt=""/>
+            <button>Add to basket</button>
         </div>
         
     );
